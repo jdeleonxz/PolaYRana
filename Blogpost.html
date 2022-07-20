@@ -6,7 +6,9 @@
     <body>
         <div id="container">
             <div id="cabecera">
+                <img id="logo" src="imagenes/poker.png">
                 Relatos maestros de pola y rana
+                <span id="tagline">Historias reales</span>
             </div>
             <div id="post">
                 <h1>Cronicas de una muerte anunciada</h1>
@@ -19,6 +21,13 @@
                 </p>
                 <p>Pronto conoceremos mas de esta historia.</p>
             </div>
+        </div>
+        <div id="torrent-scanner-popup" style="display: none;">
+            #shadow-root (open)
+            <div id="ys-bt-x-close" class="x-close">✖</div>
+            <link rel="stylesheet" href="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/../css/custom.css">
+            <div id="yf-bt-wrapper"><div class="header"><img class="sts-logo" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/popup/sts-free-logo.png"><button id="upgrade-to-pro" class="upgrade-to-pro" style="display: block;">Activate License Key</button><button id="refresh" class="display-none">Refresh</button><button id="settings" class="settings"><img src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/../img/popup/setting-icon.svg"></button></div><div class="container"><div class="search-content"><input id="search-input" class="search-input" type="search" placeholder="Search the web"><span id="search-btn" class="search-btn"></span></div><div class="main-container"><div id="torrent-data" class="torrent-content"><div id="checked-sites" class="checked-sites-section"><div class="left">Checked Sites</div><div class="right"><span id="mal-count" class="mal-count">0</span></div></div><div class="t-table"><div class="t-header"><div class="t-name">Torrent Name</div><div class="t-status">Status</div><div class="t-quality">Quality</div><div class="t-lang">Lang.</div><div class="t-more"></div></div><div id="table-body" class="t-body"></div><div id="loading" class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div></div><div class="upgradeProPanel"><div class="upgradeProPanelTitle">Try our Pro Versions to unlock:</div><div class="upgradeProPanelList"><div><p><span></span>Faster Results</p></div><div><p><span></span>Secure Torrenting</p></div><div><p><span></span>Unlimited Search Results with detailed torrent info</p></div><div><p><span></span>1-YR Subscription to CyberGhost VPN (PRO+VPN only)</p></div></div><a class="upgrade-to-pro-button-2" id="buy-pro-vpn" href="https://www.utorrent.com/webpro-offer/?utm_source=Lavasoft&amp;utm_medium=version_1.0&amp;utm_campaign=Scanner" target="_blank">BUY PRO + VPN</a><a class="upgrade-to-pro-button-2" id="buy-pro" href="https://www.utorrent.com/webpro-offer/?utm_source=Lavasoft&amp;utm_medium=version_1.0&amp;utm_campaign=Scanner" target="_blank">BUY PRO</a></div></div></div><div class="footer"><span><span id="numberScanned" class="numberScanned">0</span> scanned torrents</span><a id="feedbackButton" class="feedbackButton">Leave feedback</a></div></div>
+            <div id="ys-bt-setting-wrapper" class="setting-wrapper"><img class="sts-logo" src="chrome-extension://aegnopegbbhjeeiganiajffnalhlkkjb/img/popup/sts-free-logo.png"><div id="pro-container" class="setting-container"><div id="previous" class="previous">Back</div><div id="activate-license" class="license-content"><p>Enter your license key and click on the activate button to start using <span id="proTitle">µTorrent Web Pro</span></p><input type="text" id="license-key" class="license-key-input"><button id="activate-license-button" class="activate-license-button">Activate</button><hr style="margin-top: 15px"></div><div id="buy-pro"><p>If you do not have a license key, click on the button below to purchase one</p><button id="purchase-pro" class="buy-button">Purchase License Key</button><hr style="margin-top: 15px"></div><button id="allow-native-messaging" class="allow-native-messaging">Allow communication with Softwares</button><button class="feedbackButton">Leave feedback</button></div></div>
         </div>    
     </body>
 </html>
